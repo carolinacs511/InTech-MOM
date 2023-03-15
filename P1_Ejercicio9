@@ -1,0 +1,9 @@
+let numeros = [11, 8, 15, 9, 7];
+let suma= numeros.reduce((a,n) => (a += n, a),0);
+console.log(suma);
+
+
+console.log();
+
+let promedio = suma / numeros.length;
+console.log("El promedio de" + " " + numeros + " "+ "es:" + promedio);
